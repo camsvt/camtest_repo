@@ -69,9 +69,23 @@
             }
           ],
           "resthooks": [],
-          "notifications": [],
+          "notifications": [
+            {
+              "emailnotification": {
+                "title": "emailnotification_f644a5",
+                "type": "email",
+                "receiverList": "aratolik@in.ibm.com",
+                "id": "emailnotf19ff4b7",
+                "sender": "CAMadmin",
+                "copyToList": "",
+                "subject": "hi",
+                "body": "test"
+              }
+            }
+          ],
           "sequence": {
-            "0": "googleclf94a346e"
+            "0": "googleclf94a346e",
+            "1": "emailnotf19ff4b7"
           }
         },
         "output_parameters": []
@@ -97,10 +111,23 @@
                 "subject": "hi",
                 "body": "github public"
               }
+            },
+            {
+              "emailnotification": {
+                "title": "emailnotification_0adf0e",
+                "type": "email",
+                "receiverList": "tets@test.com",
+                "id": "emailnot2471bde6",
+                "sender": "CAMadmin",
+                "copyToList": "",
+                "subject": "hi",
+                "body": "hi"
+              }
             }
           ],
           "sequence": {
-            "0": "emailnotfb5fdc99"
+            "0": "emailnotfb5fdc99",
+            "1": "emailnot2471bde6"
           }
         },
         "output_parameters": []
