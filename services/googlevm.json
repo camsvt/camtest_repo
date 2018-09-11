@@ -102,18 +102,6 @@
           "notifications": [
             {
               "emailnotification": {
-                "title": "emailnotification_ba8a08",
-                "type": "email",
-                "receiverList": "aratolik@in.ibm.com",
-                "id": "emailnotfb5fdc99",
-                "sender": "CAMadmin",
-                "copyToList": "",
-                "subject": "hi",
-                "body": "github public"
-              }
-            },
-            {
-              "emailnotification": {
                 "title": "emailnotification_0adf0e",
                 "type": "email",
                 "receiverList": "tets@test.com",
@@ -123,11 +111,23 @@
                 "subject": "hi",
                 "body": "hi"
               }
+            },
+            {
+              "emailnotification": {
+                "title": "emailnotification_ba8a08",
+                "type": "email",
+                "receiverList": "aratolik@in.ibm.com",
+                "id": "emailnotfb5fdc99",
+                "sender": "CAMadmin",
+                "copyToList": "",
+                "subject": "hi",
+                "body": "github public"
+              }
             }
           ],
           "sequence": {
-            "0": "emailnotfb5fdc99",
-            "1": "emailnot2471bde6"
+            "0": "emailnot2471bde6",
+            "1": "emailnotfb5fdc99"
           }
         },
         "output_parameters": []
